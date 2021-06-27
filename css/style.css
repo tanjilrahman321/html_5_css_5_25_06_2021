@@ -1,0 +1,109 @@
+header{
+	border: 1px solid black;
+	padding: 20px 0;
+	background-color: black;
+	color: honeydew;
+}
+
+header a{
+	text-decoration: none;
+	font-size: 18px;
+	font-family: arial;
+	color: black;
+	font-weight: bold;
+	padding: 10px 12px;
+	background-color: #3BCFCF;
+	border-radius: 5px;
+	transition: all 0.1s ease;
+}
+
+header a:hover{
+	color: #3BCFCF;
+	background-color: transparent;
+	border: 1px solid #3BCFCF;
+}
+
+.hover p {
+  display: none;
+  background-color: yellow;
+  padding: 20px;
+}
+
+.hover div:hover p {
+  display: block;  
+}
+
+.nth-child p:first-child {
+	color: red;
+}
+
+.pseudo-checked input:checked{
+	height: 20px;
+	width: 30px;
+}
+
+.pseudo-disena input:disabled{
+	background-color: lightcyan;
+}
+
+.pseudo-disena input:enabled{
+	background-color: orange;
+}
+
+.focus input:focus{
+	background-color: yellow;
+}
+
+:target {
+  border: 2px solid #D4D4D4;
+  background-color: #e5eecc;
+}
+
+.required input:required{
+	border: 1px solid red;
+}
+
+.optional input:optional{
+	background-color: wheat;
+
+}
+
+.bgcolor .testdiv{
+	width: 50px;
+	height: 50px;
+	background-color: red;
+	opacity: 0.5;
+}
+
+.background{
+	background-image: url("../img/test.jpg");
+ 	color: red;
+ 	width: 260px;
+ 	text-align: justify;
+}
+
+.decoration .overline{
+	text-decoration: overline;
+}
+
+.decoration .line-through{
+	text-decoration: line-through;
+}
+
+.decoration .underline{
+	text-decoration: underline;
+}
+
+.decoration p{
+	text-indent: 30px;
+	text-align: justify;
+	word-spacing: 10px;
+	letter-spacing: 2px;
+	line-height: 1.2;
+}
+
+.shadow{
+	text-shadow: 2px 2px 6px red;
+	font-size: 28px;
+	font-weight: bold;
+}
